@@ -1,5 +1,7 @@
 # Name: Start VPN at startup and check for connection
 # Author: Mukul Dharwadkar
+# Copyright: JnanaTech Ventures (2025)
+# No unauthorized copying and distribution is permitted
 
 # Define variables
 $TrustedNetworkRange = "10.0.0.0/8"

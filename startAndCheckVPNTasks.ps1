@@ -1,3 +1,8 @@
+# Name: Start VPN at startup and check for connection
+# Author: Mukul Dharwadkar
+# Copyright: JnanaTech Ventures (2025)
+# No unauthorized copying and distribution is permitted
+
 # Define file path for VBS script
 $ScriptPath = "C:\Scripts\startAndCheckVPN.vbs"
 
