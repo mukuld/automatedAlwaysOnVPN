@@ -4,15 +4,15 @@
 # No unauthorized copying and distribution is permitted
 
 # Define variables
-$TrustedNetworkRange = "10.0.0.0/8"
-$VpnNetworkRange = "10.75.0.0"
-$VpnSubnetMask = "255.255.254.0"
-$TrustedDnsSuffix = "city.santaclara.local"
-$VpnName = "Device Tunnel"
+$TrustedNetworkRange = "YOURTRUSTEDRANGE"
+$VpnNetworkRange = "YOURVPNRANGE"
+$VpnSubnetMask = "YOURSUBNETMASK"
+$TrustedDnsSuffix = "#YOURTRUSTEDDNSSUFFIX"
+$VpnName = "YOURVPNNAME"
 $CurrentUser = $env:USERNAME
 $MaxRetries = 3
 $RetryInterval = 3  # Initial retry interval in seconds
-$TestIP = "csi.santaclaraca.gov"
+$TestIP = "#YOURTESTIP"
 $TestDestination = "1.1.1.1"
 $EventSource = "VPNConnectionScript"
 
